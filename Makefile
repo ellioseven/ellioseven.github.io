@@ -5,4 +5,4 @@ serve:
 	jekyll serve --watch --drafts
 
 deploy:
-	git push origin master
+	jekyll build && git push origin master
