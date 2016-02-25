@@ -179,13 +179,10 @@ main[role="main"] a:after {
 .logo {
     font-weight: bold;
     text-transform: uppercase;
-}
-
-.logo a {
     color: inherit;
     text-decoration: none;
 }
 
-.logo p {
-    margin: 0;
+.logo:after {
+    content: "(){}";
 }

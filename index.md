@@ -6,8 +6,8 @@ permalink: /
 ---
 # About Me
 
-Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl.
+My name is Elliot. I make websites. Sometimes I write handy code and have interesting thoughts and ideas about the internet.
 
-Suspendisse feugiat. Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Nullam sagittis. Nullam accumsan lorem in dui. Curabitur blandit mollis lacus.
+Want to send me electronic mail? [Now you can](mailto:elliot.mitchum@ellioseven.com). 
 
 {% include entry-list/recent.html %}
