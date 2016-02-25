@@ -3,3 +3,4 @@ url: "http://www.ellioseven.com"
 markdown: kramdown
 github_url: https://github.com/ellioseven
 highlighter: false
+exclude: [Makefile, Gemfile, Gemfile.lock]
