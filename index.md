@@ -10,4 +10,6 @@ My name is Elliot. I make websites. Sometimes I write handy code and have intere
 
 Want to send me electronic mail? [Now you can](mailto:elliot.mitchum@ellioseven.com). 
 
+I also [have twitter](https://twitter.com/ellioseven).
+
 {% include entry-list/recent.html %}
