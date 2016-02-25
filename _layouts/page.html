@@ -2,11 +2,11 @@
 layout: default
 ---
 <article>
+	{% unless page.hide-title %}
 	<header>
-		{% unless page.hide-title %}
 		<h1>{{ page.title }}</h1>
-		{% endunless %}
 	</header>
+	{% endunless %}
 	<div>
 		{{ content }}
 	</div>

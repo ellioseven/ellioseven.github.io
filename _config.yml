@@ -1,5 +1,5 @@
 title: Ellioseven
-url: "http://www.ellioseven.com"
+url: "http://localhost:4000"
 markdown: kramdown
 github_url: https://github.com/ellioseven
 highlighter: false
