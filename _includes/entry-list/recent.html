@@ -1,0 +1,11 @@
+<section>
+    <h1>Entries</h1>
+    <ol>
+        {% for post in site.posts limit:10 %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a><br>
+            {{ post.date | date: "%d.%m.%Y" }}
+        </li>
+        {% endfor %}
+    </ol>
+</section>

@@ -1,0 +1,13 @@
+<header role="banner">
+	<p class="logo"><a href="{{ site.url }}">{{ site.title }}</a></p>
+	<nav>
+		<ul>
+			{% for page in site.pages %}
+			{% if page.title %}
+			<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+			<li><a href="{{ site.github_url }}">GitHub</a></li>
+		</ul>
+	</nav>
+</header>
