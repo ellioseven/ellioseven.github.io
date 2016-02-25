@@ -81,6 +81,10 @@ pre:after {
     transform: rotate(180deg);
 }
 
+pre {
+  overflow: auto;
+}
+
 pre code {
     display: block;
 }
