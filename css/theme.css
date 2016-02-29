@@ -4,6 +4,14 @@ body {
     line-height: 1.6;
 }
 
+@media (min-width: 50em) {
+
+    html,
+    body {
+        font-size: 107.5%;
+    }
+}
+
 html,
 body,
 pre,
