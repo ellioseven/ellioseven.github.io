@@ -1,6 +1,5 @@
 title: Ellioseven
 url: ""
-markdown: redcarpet
 github_url: https://github.com/ellioseven
 highlighter: false
 exclude: [Makefile, Gemfile, Gemfile.lock]
