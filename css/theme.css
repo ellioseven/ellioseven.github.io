@@ -145,6 +145,11 @@ hr {
     line-height: 1;
 }
 
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 header[role="banner"],
 main[role="main"],
 footer[role="contentinfo"],
