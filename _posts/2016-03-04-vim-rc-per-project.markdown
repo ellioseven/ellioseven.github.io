@@ -18,8 +18,6 @@ if filereadable(".vim.custom")
 endif
 ```
 
-You may need to reload you're `.bashrc` file for this change to take effect.
-
 ## Note
 
 Your shell must be inside the project for your `.vim.custom` file to be loaded.
