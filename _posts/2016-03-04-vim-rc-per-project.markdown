@@ -20,9 +20,9 @@ endif
 
 ## Note
 
-Your shell must be inside the project for your `.vim.custom` file to be loaded.
+Your shell must be inside the project project for your `.vim.custom` file to be loaded.
 
 ```
-cd /path/to/project/somedir
+cd /path/to/project
 vim ./somefile
 ```
