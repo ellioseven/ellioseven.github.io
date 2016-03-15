@@ -60,7 +60,6 @@ h6:before {
 
 a {
     font-weight: 700;
-    word-break: break-all;
 }
 
 a:hover,
@@ -76,18 +75,6 @@ strong:after {
 em:before,
 em:after {
     content: "__"
-}
-
-pre:before,
-pre:after {
-    content: "```";
-    display: inline-block;
-}
-
-pre:after {
-    -ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
 }
 
 pre {
@@ -128,14 +115,6 @@ ul li:before {
 
 img {
     max-width: 100%;
-}
-
-img:after {
-    content: "wtf";
-}
-
-img:before {
-    content: "wtf";
 }
 
 blockquote > *:before {
@@ -183,15 +162,6 @@ header[role="banner"] .logo {
 
 nav a {
     margin-right: .5em;
-}
-
-main[role="main"] a:before {
-    content: "[";
-}
-
-main[role="main"] a:after {
-    content: "]("attr(href)")";
-    text-overflow: ellipsis;
 }
 
 .logo {
