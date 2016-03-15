@@ -64,3 +64,9 @@ class MyModuleController extends ControllerBase {
 The `create()` method is inherited from the extended `ControllerBase` class. It changes the way that the controller class is instantiated, allowing you to pass parameters to the `__construct()` method.
 
 The `return new static()` line of the `create()` method simply returns a new instance of the class it belongs to.
+
+## Useful Reading
+
+* (Drupal 8 Dependency Injection | Aquia)[https://docs.acquia
+.com/articles/drupal-8-dependency-injection-and-controllers]
+* (PluginTypeExampleController | Drupal 8 Examples)[https://api.drupal.org/api/examples/plugin_type_example%21src%21Controller%21PluginTypeExampleController.php/8]
