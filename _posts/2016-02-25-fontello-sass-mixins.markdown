@@ -63,7 +63,12 @@ This will replace an element's text with an icon. Handy for accessibility.
 *This mixin depends on `fontello()`.*
 
 {% highlight scss %}
-@mixin fontello-replace-with-icon($icon: "", $height: false, $width: false, $inline: true) {
+@mixin fontello-replace-with-icon(
+  $icon: "",
+  $height: false,
+  $width: false, 
+  $inline: true
+) {
   @include fontello-replace-with-icon-content($icon);
   line-height: 0;
   vertical-align: middle;
