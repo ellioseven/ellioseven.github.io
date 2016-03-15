@@ -11,15 +11,15 @@ Simply outputs a fontello icon. This must be used on pseudo element (:before or 
 
 ### Usage:
 
-```
+{% highlight scss %}
 .my-element:before {
   @include fontello($icon-star);
 }
-```
+{% endhighlight %}
 
 ### Source:
 
-```
+{% highlight scss %}
 // Output icon.
 @mixin fontello($icon) {
   @include fontello-base;
@@ -44,7 +44,7 @@ Simply outputs a fontello icon. This must be used on pseudo element (:before or 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-```
+{% endhighlight %}
 
 ## Replace With Icon
 
@@ -52,17 +52,17 @@ This will replace an element's text with an icon. Handy for accessibility.
 
 ### Usage:
 
-```
+{% highlight scss %}
 .my-accordion-toggle {
   @include fontello-replace-with-icon($icon-arrow-down);
 }
-```
+{% endhighlight %}
 
 ### Source:
 
 *This mixin depends on `fontello()`.*
 
-```
+{% highlight scss %}
 @mixin fontello-replace-with-icon($icon: "", $height: false, $width: false, $inline: true) {
   @include fontello-replace-with-icon-content($icon);
   line-height: 0;
@@ -112,5 +112,5 @@ This will replace an element's text with an icon. Handy for accessibility.
     }
   }
 }
-```
+{% endhighlight %}
 

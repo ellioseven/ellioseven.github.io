@@ -11,18 +11,18 @@ I stumbled upon a [unique solution)](http://stackoverflow.com/a/1889646/1029575)
 
 Place this in your `$HOME/.vimrc` file:
 
-```
+{% highlight bash %}
 # $HOME/.vimrc
 if filereadable(".vim.custom")
     so .vim.custom
 endif
-```
+{% endhighlight %}
 
 ## Note
 
 Your shell must be inside the project project for your `.vim.custom` file to be loaded.
 
-```
+{% highlight bash %}
 cd /path/to/project
 vim ./somefile
-```
+{% endhighlight %}

@@ -5,8 +5,8 @@ date: 2016-02-29
 ---
 Drupal 7 modules can hook their own stylesheets into the DOM, which can be really frustrating for themers. Instead of applying more reset CSS, just unhook the stylesheets.
 
-```
-// template.php
+{% highlight php %}
+<?php
 
 /**
  * Implements hook_css_alter().
@@ -35,7 +35,7 @@ function hook_css_alter(&$css) {
   }
 
 }
-```
+{% endhighlight %}
 
 ## Usage
 
