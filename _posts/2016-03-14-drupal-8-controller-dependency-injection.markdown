@@ -67,6 +67,6 @@ The `return new static()` line of the `create()` method simply returns a new ins
 
 ## Useful Reading
 
-* (Drupal 8 Dependency Injection | Aquia)[https://docs.acquia
-.com/articles/drupal-8-dependency-injection-and-controllers]
-* (PluginTypeExampleController | Drupal 8 Examples)[https://api.drupal.org/api/examples/plugin_type_example%21src%21Controller%21PluginTypeExampleController.php/8]
+* [Drupal 8 Dependency Injection - Aquia](https://docs.acquia.com/articles/drupal-8-dependency-injection-and-controllers)
+* [PluginTypeExampleController - Drupal 8 Examples](https://api.drupal.org/api/examples/plugin_type_example%21src%21Controller%21PluginTypeExampleController.php/8)
+
