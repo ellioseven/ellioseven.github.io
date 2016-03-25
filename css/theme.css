@@ -16,7 +16,6 @@ body {
 
 html,
 body,
-pre,
 code {
     font-family: monospace;
 }
@@ -82,7 +81,7 @@ em:after {
 }
 
 pre {
-  overflow: auto;
+    overflow: auto;
 }
 
 pre code {
@@ -190,7 +189,7 @@ nav a {
 .highlight {
     margin-top: 1em;
     margin-bottom: 1em;
-    padding: 1em;
+    padding: 2em;
     font-size: 85%;
     border: none;
 }
