@@ -38,6 +38,7 @@ function my_theme_ds_pre_render_alter(&$layout_render_array, $context, &$vars) {
         }
       }
     }
+    
   }
 
 {% endhighlight %}
