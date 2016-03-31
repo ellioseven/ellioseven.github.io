@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Drupal 8 Controller Dependency Injection"
+title: "Drupal 8 - Controller Dependency Injection"
 date: 2016-03-15
 ---
 Drupal controllers can implement services via dependency injection. This is the preferred way to use the service 
