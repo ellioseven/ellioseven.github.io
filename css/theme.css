@@ -189,29 +189,25 @@ nav a {
 .highlight {
     margin-top: 1em;
     margin-bottom: 1em;
-    padding: 2em;
-    font-size: 85%;
-    border: none;
+    font-size: 95%;
 }
 
 .highlight pre {
     font-weight: normal;
-    color: inherit;
     margin: 0;
+    color: #c5c8c6;
+    background: #1d1f21;
+    overflow: auto;
 }
 
 .highlight code {
+    padding: 2em;
     color: inherit;
     font-weight: normal;
 }
 
 .highlight .hll {
     background-color: #373b41
-}
-
-.highlight {
-    background: #1d1f21;
-    color: #c5c8c6
 }
 
 .highlight .c {
