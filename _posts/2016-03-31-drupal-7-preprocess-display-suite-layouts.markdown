@@ -12,8 +12,15 @@ I use the [Display Suite](https://www.drupal.org/project/ds) module to render co
  * Implements hook_ds_pre_render_alter().
  *
  * @param $layout_render_array
+ *   The render array
  * @param $context
- * @param $vars
+ *   An array with the context that is being rendered. Available keys are
+ *   - entity
+ *   - entity_type
+ *   - bundle
+ *   - view_mode
+ * @param array $vars
+ *   All variables available for render. You can use this to add css classes.
  */
 function my_theme_ds_pre_render_alter(&$layout_render_array, $context, &$vars) {
   
@@ -35,4 +42,4 @@ function my_theme_ds_pre_render_alter(&$layout_render_array, $context, &$vars) {
 
 {% endhighlight %}
 
-This will simply hook into `hook_ds_pre_render_alter()` and unset the 'field_my_field' from any region in a 'my_content_type' node.
+In this example, the code will simply hook into `hook_ds_pre_render_alter()` and unset the 'field_my_field' from any region in a 'my_content_type' node.
