@@ -12,6 +12,8 @@ your own alter hook.
 The idea for this solution is to register an alter hook with [`drupal_alter()`](https://api.drupal.org/api/drupal/includes!module.inc/function/drupal_alter/7.x)
 so other modules can alter the render array by entity.
 
+### my_module.module
+
 {% highlight php %}
 <?php
 
@@ -63,6 +65,8 @@ pass in any arguments you do or don't need.
 
 Here is an example of how you would use the hook. This example will check for
 the title of a blog post and change it.
+
+### my_theme.template.php
 
 {% highlight php %}
 <?php
