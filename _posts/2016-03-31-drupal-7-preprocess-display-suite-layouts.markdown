@@ -3,7 +3,16 @@ layout: post
 title: "Drupal 7 - Preprocess Display Suite Layouts"
 date: 2016-03-31
 ---
-I use the [Display Suite](https://www.drupal.org/project/ds) module to render content for most of my Drupal builds. Sometimes I get into a situation where I need to hide certain fields from a Display Suite layout. 
+## Note
+
+I have covered a more verbose way of manipulating display suite layouts with
+hooks. [View the post]({% post_url 2016-04-27-drupal-7-better-display-suite-layout-hooks %})
+
+---
+
+I use the [Display Suite](https://www.drupal.org/project/ds) module to render
+content for most of my Drupal builds. Sometimes I get into a situation where
+I need to hide certain fields from a Display Suite layout. 
 
 {% highlight php %}
 <?php
@@ -43,4 +52,5 @@ function my_theme_ds_pre_render_alter(&$layout_render_array, $context, &$vars) {
 
 {% endhighlight %}
 
-In this example, the code will simply hook into `hook_ds_pre_render_alter()` and unset the 'field_my_field' from any region in a 'my_content_type' node.
+In this example, the code will simply hook into `hook_ds_pre_render_alter()` and
+unset the 'field_my_field' from any region in a 'my_content_type' node.

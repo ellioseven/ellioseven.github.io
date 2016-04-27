@@ -136,7 +136,9 @@ figure {
 header[role="banner"],
 main[role="main"],
 footer[role="contentinfo"],
-hr {
+header[role="banner"] + hr,
+main[role="main"] + hr,
+footer[role="contentinfo"] + hr {
     max-width: 45em;
     margin: 1em auto;
     padding-left: 1em;
