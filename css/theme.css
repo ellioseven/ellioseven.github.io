@@ -139,8 +139,8 @@ footer[role="contentinfo"],
 header[role="banner"] + hr,
 main[role="main"] + hr,
 footer[role="contentinfo"] + hr {
-    max-width: 45em;
-    margin: 1em auto;
+    max-width: 34em;
+    margin: 2em auto;
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -182,6 +182,12 @@ nav a {
     margin-top: 1em;
     margin-bottom: 1em;
     font-size: 95%;
+}
+
+@media (min-width: 50em) {
+    .highlight {
+        margin: 2em -20%;
+    }
 }
 
 .highlight pre {
