@@ -112,7 +112,7 @@ footer[role="contentinfo"],
 header[role="banner"] + hr,
 main[role="main"] + hr,
 footer[role="contentinfo"] + hr {
-    max-width: 34em;
+    max-width: 30em;
     margin: 2em auto;
     padding-left: 1em;
     padding-right: 1em;
