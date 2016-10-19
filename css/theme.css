@@ -56,10 +56,10 @@ code {
 }
 
 pre {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em;
     border-top: 1px dotted #ddd;
     border-bottom: 1px dotted #ddd;
+    background-color: #f7f7f7;
     overflow: auto;
 }
 
@@ -144,11 +144,6 @@ nav a {
 }
 
 /* Highlight */
-
-.highlight pre {
-    padding: 1em;
-    background-color: #f7f7f7;
-}
 
 .highlight code {
     color: inherit;
