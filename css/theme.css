@@ -36,6 +36,10 @@ h6 {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 a {
     color: #1e90ff;
     font-weight: 700;
@@ -46,16 +50,6 @@ a:focus {
     color: #CF000F;
 }
 
-strong:before,
-strong:after {
-    content: "**";
-}
-
-em:before,
-em:after {
-    content: "__"
-}
-
 pre,
 code {
     font-family: monospace;
@@ -64,8 +58,8 @@ code {
 pre {
     padding-top: 1em;
     padding-bottom: 1em;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px dotted #ddd;
+    border-bottom: 1px dotted #ddd;
     overflow: auto;
 }
 
@@ -78,25 +72,12 @@ code {
     font-weight: 700;
 }
 
-ul {
-    list-style: none;
-}
-
-ul li {
-    margin-bottom: .5em;
-}
-
-ul li:before {
-    content: "- ";
-    margin-left: -1.2em;
+a code {
+    color: inherit;
 }
 
 img {
     max-width: 100%;
-}
-
-blockquote > *:before {
-    content: "> ";
 }
 
 hr {
@@ -109,6 +90,10 @@ hr {
 figure {
     margin-left: 0;
     margin-right: 0;
+}
+
+blockquote {
+    font-size: 1.25em;
 }
 
 /* Region */
