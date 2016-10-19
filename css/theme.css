@@ -63,6 +63,14 @@ pre {
     overflow: auto;
 }
 
+@media (min-width: 50em) {
+
+    pre {
+        margin-left: -1em;
+        margin-right: -1em;
+    }
+}
+
 pre code {
     display: block;
 }
