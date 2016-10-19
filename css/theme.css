@@ -71,7 +71,6 @@ pre {
 
 pre code {
     display: block;
-    font-weight: 400;
 }
 
 code {
@@ -223,13 +222,8 @@ nav a {
     color: #C82829;
 }
 
-.highlight .ge {
-    font-style: italic;
-}
-
 .highlight .gh {
     color: #545454;
-    font-weight: bold;
 }
 
 .highlight .gi {
@@ -238,16 +232,10 @@ nav a {
 
 .highlight .gp {
     color: #718C00;
-    font-weight: bold;
-}
-
-.highlight .gs {
-    font-weight: bold;
 }
 
 .highlight .gu {
     color: #3E999F;
-    font-weight: bold;
 }
 
 .highlight .kc {
