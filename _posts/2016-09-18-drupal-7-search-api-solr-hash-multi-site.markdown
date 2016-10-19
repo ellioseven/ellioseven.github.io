@@ -109,9 +109,9 @@ function drush_my_module_search_api_solr_hash_reset() {
 The only thing left to do was run the command on the new multi-site
 instance:
 
-```
+{% highlight shell %}
 drush my-module-search-api-solr-hash-reset
-```
+{% endhighlight %}
 
 ## What Did I Learn
 
