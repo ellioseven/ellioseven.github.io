@@ -1,4 +1,4 @@
 title: Ellioseven
 url: ""
 github_url: https://github.com/ellioseven
-exclude: [Makefile, Gemfile, Gemfile.lock]
+exclude: [Gemfile, Gemfile.lock]
