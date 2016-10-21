@@ -7,7 +7,7 @@ Psuedo fields are a great way to display dynamic content to fieldable
 entities. The idea is simple, register the field with `hook_field_extra_fields()`
 and build the field display with `hook_entity_view()`.
 
-## Register the Field.
+## Register the Field
 
 This will simply register a pseudo field called `example_field` that will
  only be applicable for pages. Simple stuff.
