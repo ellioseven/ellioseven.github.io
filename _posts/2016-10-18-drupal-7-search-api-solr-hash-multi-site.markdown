@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Drupal 7 - Search API Solr - The Hash & Multi-site"
-date: 2016-09-18
+date: 2016-10-18
 ---
 When creating new multi-site instances on an existing code base, the
 usual approach is to clone an already existing instance (including 
@@ -21,7 +21,7 @@ A few baffling (at the time) symptoms included:
 
 After a few hours of crawling through issues and attempted Googling, I
 was completely stumped. I had no idea why this was happening. It wasn't
-until a colleague asked:
+until a [colleague](http://www.kyuubi.me) asked:
 
 > How does the Search API module separate indexed content from each
 > multi-site instance?
