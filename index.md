@@ -6,8 +6,8 @@ permalink: /
 ---
 # About Me
 
-My name is Elliot. I make websites. I architect and develop websites
- Drupal. Currently obsessed with DevOps and studying computer science.
+My name is Elliot. I'm a Drupal developer. Currently obsessed with
+DevOps and studying computer science.
 
 Want to send me electronic mail? [Now you can](mailto:elliot.mitchum@ellioseven.com). 
 
