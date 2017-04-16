@@ -1,9 +1,11 @@
 /* Global */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700|Roboto:400,400i,700,700i');
+
 html,
 body {
     color: #111;
-    line-height: 1.4;
+    line-height: 1.75;
 }
 
 @media (min-width: 50em) {
@@ -17,7 +19,7 @@ body {
 html,
 body,
 code {
-    font-family: serif;
+    font-family: "Roboto", serif;
 }
 
 body {
@@ -27,17 +29,9 @@ body {
 
 /* Typography */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: sans-serif;
-}
-
 h1 {
     font-size: 2em;
+    line-height: 1.5;
 }
 
 a {
@@ -52,14 +46,14 @@ a:focus {
 
 pre,
 code {
-    font-family: monospace;
+    font-family: "Roboto Mono", monospace;
 }
 
 pre {
-    padding: 1em;
+    padding: 2em 1em;
     border-top: 1px dotted #ddd;
     border-bottom: 1px dotted #ddd;
-    background-color: #f7f7f7;
+    background-color: transparent;
     overflow: auto;
 }
 
@@ -73,6 +67,8 @@ pre {
 
 pre code {
     display: block;
+    font-size: .75em;
+    background-color: transparent;
 }
 
 code {
@@ -102,6 +98,7 @@ figure {
 
 blockquote {
     font-size: 1.25em;
+    font-style: italic;
 }
 
 /* Region */
@@ -154,7 +151,7 @@ nav a {
 }
 
 .highlight .hll {
-    background-color: #EFEFEF;
+    background-color: transparent;
 }
 
 .highlight .c {
