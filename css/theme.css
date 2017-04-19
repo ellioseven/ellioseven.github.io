@@ -50,6 +50,8 @@ code {
 }
 
 pre {
+    margin-top: 2em;
+    margin-bottom: 2em;
     padding: 2em 1em;
     border-top: 1px dotted #ddd;
     border-bottom: 1px dotted #ddd;
@@ -145,6 +147,16 @@ nav a {
 }
 
 /* Highlight */
+
+.highlight {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.highlight pre {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .highlight code {
     color: inherit;
