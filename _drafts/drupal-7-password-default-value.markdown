@@ -9,7 +9,9 @@ will be removed.
 After a form submit, the password default value is null. If no value
 was specified, then your previous value will be removed.
 
-To prevent this, we need to check for a null value and an existing value:
+I stumbled upon a great solution at. [StackExchange](https://drupal.stackexchange.com/questions/38770/giving-a-default-value-to-a-password-element-in-d7-form-api).
+To prevent the default value being overridden, we need to check for a
+null value and an existing value:
 
 {% highlight php %}
 <?php
