@@ -2,6 +2,7 @@
 layout: post
 title: "Drupal 7 - Entity Preprocess from a Module"
 ---
+https://drupal.stackexchange.com/questions/64751/how-to-define-entity-preprocess-function
 ```
 function my_module_preprocess(&$variables, $hook) {
   if (isset($variables['elements']['#entity_type'])) {
