@@ -18,7 +18,7 @@ a blank form item.
 {% highlight php %}
 <?php
 
-**
+/**
  * Build form.
  *
  * @param $form
