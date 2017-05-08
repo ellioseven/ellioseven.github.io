@@ -5,13 +5,7 @@ date: 2017-04-30
 ---
 Learning Drupal 8 can be a very daunting task, you probably won't know
 where to start, what resources are out there or what content to trust.
-I have prepared a living guide to learning Drupal 8.
-
-## Repository
-
-The guide is available as a [respository](https://bitbucket.org/ellioseven/pathway).
-
-## Approach
+I have prepared a living guide to help developers learn Drupal 8.
 
 There will be a lot of content here, you will be happy to know that you
 don't have to read it all. Only the pathway is suggested.
@@ -19,8 +13,7 @@ don't have to read it all. Only the pathway is suggested.
 ## A Living Guide
 
 Compiling the guide is an ongoing process. Resources will be added or
-removed as time goes on. Check the [repository changelog](https://bitbucket.org/ellioseven/pathway/commits/all)
-for changes.
+removed as time goes on.
 
 ## Pathway
 
