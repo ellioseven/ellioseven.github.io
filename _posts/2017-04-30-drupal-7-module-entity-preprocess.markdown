@@ -10,7 +10,7 @@ a theme to implement functionality.
 Unfortunately a `hook_preprocess_my_entity` doesn't exist, so we have
 to make one. However, we can do that with `hook_preprocess`.
 
-```
+{% highlight php %}
 /**
  * Implements hook_preprocess().
  *
@@ -33,7 +33,7 @@ function my_module_preprocess(&$variables, $hook) {
  * @param $variables
  */
 function my_module_preprocess_my_entity(&$variables) {}
-```
+{% endhighlight %}
 
 The above code simply registers a `my_module_preprocess_ENTITY_TYPE()`
 callback, allowing you to preprocess different entity types. We have
