@@ -32,7 +32,6 @@ I need to hide certain fields from a Display Suite layout.
  *   All variables available for render. You can use this to add css classes.
  */
 function my_theme_ds_pre_render_alter(&$layout_render_array, $context, &$vars) {
-  
   // Check node type.
   if ('my_content_type' == $context['bundle'] && 'node' == $context['entity_type'])  {
     // Check for field.
@@ -47,9 +46,8 @@ function my_theme_ds_pre_render_alter(&$layout_render_array, $context, &$vars) {
         }
       }
     }
-    
   }
-
+}
 {% endhighlight %}
 
 In this example, the code will simply hook into `hook_ds_pre_render_alter()` and
