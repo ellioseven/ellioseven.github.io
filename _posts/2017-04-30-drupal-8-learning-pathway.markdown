@@ -121,6 +121,7 @@ removed as time goes on.
         * [Drupal.org - Transliteration](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Language%21language.api.php/group/transliteration/8.3.x)
 * Testing
     * [Drupal.org - Testing Guide](https://www.drupal.org/docs/8/testing)
+    * [Drupal.org - Drupal CI](https://www.drupal.org/drupalorg/docs/drupal-ci)
     * [Drupal.org - Testing API Reference](https://api.drupal.org/api/drupal/core%21core.api.php/group/testing/8.3.x)
     * [YouTube - DrupalCon Baltimore 2017: Implementing Full Stack Test Automation for Drupal 8](https://youtu.be/SceHV1Hueng)
     * [YouTube - DrupalCon Baltimore 2017: Testing for the Brave and True](https://youtu.be/6M5DtHeeXYI)
