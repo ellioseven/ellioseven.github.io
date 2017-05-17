@@ -151,6 +151,7 @@ removed as time goes on.
         * [Drupal.org - Composer](https://www.drupal.org/docs/develop/using-composer)
         * [Pantheon - Composer](https://pantheon.io/resources/couch-coding-composer-workflow)
         * [YouTube - DrupalCon Dublin 2016: Composer based workflows for Drupal 8](https://youtu.be/1KTQxbM4W-s)
+        * [Composer & Drupal Are Still Strange Bedfellows](https://www.jeffgeerling.com/blog/2017/composer-and-drupal-are-still-strange-bedfellows)
     * PhpStorm
         * [Confluence PhpStorm - Drupal Development Using PhpStorm](https://confluence.jetbrains.com/display/PhpStorm/Drupal+Development+using+PhpStorm)
         * [Drupalize.me - PhpStorm](https://drupalize.me/series/phpstorm-ide)
