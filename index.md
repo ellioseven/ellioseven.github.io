@@ -6,9 +6,10 @@ permalink: /
 ---
 # About Me
 
-My name is Elliot. I'm a Drupal developer. Currently obsessed with
-DevOps and studying computer science.
+My name is Elliot. I'm a Drupal developer. I like to learn, write and build.
+Currently studying Computer Science & Development Operations.
 
-Want to send me electronic mail? [Now you can](mailto:elliot.mitchum@ellioseven.com). 
+Currently looking to help contribute to the Drupal Community. Have some ideas? 
+[Get in touch](mailto:elliot.mitchum@ellioseven.com). 
 
 {% include entry-list/recent.html %}
