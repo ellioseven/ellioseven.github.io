@@ -5,15 +5,7 @@
 html,
 body {
     color: #111;
-    line-height: 1.75;
-}
-
-@media (min-width: 50em) {
-
-    html,
-    body {
-        font-size: 115%;
-    }
+    line-height: 1.5;
 }
 
 html,
