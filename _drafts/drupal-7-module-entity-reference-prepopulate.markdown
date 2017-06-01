@@ -29,6 +29,8 @@ content type. We want to prepopulate the field with an existing "Article".
     * Machine Name: `field_article`
 2. Edit the new field:
     * Additional Behaviors: Check `Entity reference prepopulate`
+    
+<a href="{{ site.url }}/files/drupal-7-module-entity-reference-prepopulate/field-edit.jpg">![Field edit page]({{ site.url }}/files/drupal-7-module-entity-reference-prepopulate/field-edit.jpg)</a>
 
 ### 2. Create an Article
 
