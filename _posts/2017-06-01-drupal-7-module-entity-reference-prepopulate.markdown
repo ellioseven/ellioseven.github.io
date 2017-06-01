@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Drupal 7 - Module - Entity Reference Prepopulate"
+date: 2017-06-01
 ---
 > Allow prepopulating any Entity reference field via URL.
 
