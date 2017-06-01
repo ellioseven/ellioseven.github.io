@@ -118,7 +118,27 @@ header[role="banner"] p {
 }
 
 header[role="banner"] .logo {
+    position: relative;
     margin-right: .5em;
+    vertical-align: middle;
+}
+
+header[role="banner"] .logo:before {
+    content: "";
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-right: 1em;
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    vertical-align: middle;
+}
+
+@media (min-width: 50em) {
+    header[role="banner"] .logo:before {
+        height: 40px;
+        width: 40px;
+    }
 }
 
 /* Nav */
