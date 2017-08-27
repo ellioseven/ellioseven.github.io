@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Drupal 8 - Module - Config Installer"
+---
+I prefer the configurabilitity and speed of command line tools. I run the
+following for day to day use:
+
+## Current Setup
+
+* [fish](https://github.com/fish-shell/fish-shell) - Command line interface
+* [cheat](https://github.com/chrisallenlane/cheat) - Interactive cheatsheets
+* [htop](https://github.com/hishamhm/htop) - Interactive text-mode process
+* [ranger](https://github.com/ranger/ranger) - File manager
+  viewer
+* [Neovim](https://github.com/neovim/neovim) - Text editor
+* [tig](https://github.com/jonas/tig) - Test mode interface for git
+* [calcurse](https://github.com/lfos/calcurse) - Text based calendar and
+  scheduling
+* [bandcamp-cli](https://github.com/iheanyi/bandcamp-dl) - Download audio from
+  Bandcamp.com
+* [mps-youtube](https://github.com/mps-youtube/mps-youtube) - YouTube player
+* [cmus](https://github.com/cmus/cmus) - Music player
+* [sshfs](https://github.com/libfuse/sshfs) - Mount a filesystem over SFTP
+* [NeoMutt](https://github.com/neomutt/neomutt) - Email client
+* [irssi](https://github.com/irssi/irssi) - IRC client
+* [tmux](https://github.com/tmux/tmux) - Terminal multiplexer
+* [newsbeuter](https://github.com/akrennmair/newsbeuter) - Feed reader
+
+## Interested
+
+* [terjira](https://github.com/keepcosmos/terjira) - JIRA client
+* [pianobar](https://github.com/PromyLOPh/pianobar) - Pandora client
+* [boilr](https://github.com/tmrts/boilr) - Project templates
+* [mycli](https://github.com/dbcli/mycli) - MySQL client
+* [yank](https://github.com/mptre/yank) - Copy terminal output
+* [howdoi](https://github.com/gleitz/howdoi) - Get programming help
+* [exa](https://github.com/ogham/exa) - Improved ls
+* [git-secret](https://github.com/sobolevn/git-secret)
+
+## Desired
+
+### IDE
+
+* Syntax Highlighting
+* Intellisense (autocompletion)
+* C, C++, Python, Java & PHP support
+* Code shortcuts
+* Code templates
+
+### Web Browser
+
+* Media playback (images, video, etc)
+* Complete privacy control
+* XDebug support
