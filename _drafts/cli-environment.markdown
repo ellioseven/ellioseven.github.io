@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "Drupal 8 - Module - Config Installer"
+title: "Development Environment - Command Line Tools"
 ---
-I prefer the configurabilitity and speed of command line tools. I run the
-following for day to day use:
-
 ## Current Setup
 
 * [fish](https://github.com/fish-shell/fish-shell) - Command line interface
@@ -25,6 +22,7 @@ following for day to day use:
 * [irssi](https://github.com/irssi/irssi) - IRC client
 * [tmux](https://github.com/tmux/tmux) - Terminal multiplexer
 * [newsbeuter](https://github.com/akrennmair/newsbeuter) - Feed reader
+* [OpenVPN](https://github.com/OpenVPN) - VPN Client
 
 ## Interested
 
@@ -36,6 +34,11 @@ following for day to day use:
 * [howdoi](https://github.com/gleitz/howdoi) - Get programming help
 * [exa](https://github.com/ogham/exa) - Improved ls
 * [git-secret](https://github.com/sobolevn/git-secret)
+* [tldr](https://github.com/tldr-pages/tldr) - Simplified man pages
+* [HTTPie](https://github.com/jakubroztocil/httpie) - cURL client
+* [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) - Code
+   search tool
+* [NCDU](https://dev.yorhel.nl/ncdu) - ncurses disk usage analyser
 
 ## Desired
 
