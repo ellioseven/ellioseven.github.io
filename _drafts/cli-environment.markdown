@@ -11,8 +11,10 @@ title: "Development Environment - Command Line Tools"
   viewer
 * [Neovim](https://github.com/neovim/neovim) - Text editor
 * [tig](https://github.com/jonas/tig) - Test mode interface for git
-* [calcurse](https://github.com/lfos/calcurse) - Text based calendar and
-  scheduling
+* [remind](https://www.roaringpenguin.com/products/remind) - Calendar and
+  alarms
+* [remind-caldav](https://pypi.python.org/pypi/remind-caldav) - Sync from
+  CalDAV to Remind
 * [bandcamp-cli](https://github.com/iheanyi/bandcamp-dl) - Download audio from
   Bandcamp.com
 * [mps-youtube](https://github.com/mps-youtube/mps-youtube) - YouTube player
