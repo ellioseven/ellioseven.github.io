@@ -25,6 +25,7 @@ title: "Development Environment - Command Line Tools"
 * [tmux](https://github.com/tmux/tmux) - Terminal multiplexer
 * [newsbeuter](https://github.com/akrennmair/newsbeuter) - Feed reader
 * [OpenVPN](https://github.com/OpenVPN) - VPN Client
+* [slock](http://tools.suckless.org/slock/) - Lock screen
 
 ## Interested
 
