@@ -32,21 +32,26 @@ title: "Development Environment"
 
 ### System
 
+* [alsamixer](http://alsa.opensrc.org/Alsamixer) - Control audio
 * [bluetoothctl](https://wiki.archlinux.org/index.php/bluetooth) - Bluetooth
   client
-* [bspwm](https://github.com/baskerville/bspwm) - Tiling window manager
+* [i3wm](https://github.com/i3/i3) - Tiling window manager
 * [Docker](https://www.docker.com/)
 * [Fedora](https://getfedora.org/) - Fedora Linux distribution.
 * [fish](https://github.com/fish-shell/fish-shell) - Command line interface
 * [htop](https://github.com/hishamhm/htop) - Interactive text-mode process
 * [OpenVPN](https://github.com/OpenVPN) - VPN Client
 * [maim](https://github.com/naelstrof/maim) - Screenshots
+* [mpw](https://github.com/ellioseven/docker-masterpassword) - Password
+  management.
 * [nmcli](https://fedoraproject.org/wiki/Networking/CLI) - Network manager.
 * [ranger](https://github.com/ranger/ranger) - File manager viewer
 * [slock](http://tools.suckless.org/slock/) - Lock screen
 * [sshfs](https://github.com/libfuse/sshfs) - Mount a filesystem over SFTP
 * [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) - Terminal emulator
 * [tmux](https://github.com/tmux/tmux) - Terminal multiplexer
+* [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html)
+  - Control brightness
 * [xinit](https://wiki.archlinux.org/index.php/Xinit) - Display manager
 
 ### Utilities
