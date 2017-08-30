@@ -42,6 +42,7 @@ title: "Development Environment"
 * [fish](https://github.com/fish-shell/fish-shell) - Command line interface
 * [htop](https://github.com/hishamhm/htop) - Interactive text-mode process
 * [i3wm](https://github.com/i3/i3) - Tiling window manager
+* [libnotify](https://developer.gnome.org/libnotify/) - Notification sender
 * [OpenVPN](https://github.com/OpenVPN) - VPN Client
 * [maim](https://github.com/naelstrof/maim) - Screenshots
 * [mpw](https://github.com/ellioseven/docker-masterpassword) - Password
@@ -51,13 +52,13 @@ title: "Development Environment"
 * [slock](http://tools.suckless.org/slock/) - Lock screen
 * [sshfs](https://github.com/libfuse/sshfs) - Mount a filesystem over SFTP
 * [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) - Terminal emulator
-* [tmux](https://github.com/tmux/tmux) - Terminal multiplexer
 * [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html)
   - Control brightness
 
 ### Utilities
 
 * [cheat](https://github.com/chrisallenlane/cheat) - Interactive cheat sheets
+* [p](https://github.com/chrismdp/p) - Pomodoro client
 
 ## Interested
 
