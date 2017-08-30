@@ -29,6 +29,7 @@ title: "Development Environment"
 * [remind](https://www.roaringpenguin.com/products/remind) - Calendar and alarms
 * [remind-caldav](https://pypi.python.org/pypi/remind-caldav) - Sync from CalDAV
   to Remind
+* [wyrd](http://pessimization.com/software/wyrd/) - Remind ncurses client
 
 ### System
 
