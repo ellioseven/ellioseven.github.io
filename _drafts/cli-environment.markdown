@@ -26,10 +26,13 @@ title: "Development Environment"
 
 ### Organisation
 
-* [remind](https://www.roaringpenguin.com/products/remind) - Calendar and alarms
-* [remind-caldav](https://pypi.python.org/pypi/remind-caldav) - Sync from CalDAV
-  to Remind
-* [wyrd](http://pessimization.com/software/wyrd/) - Remind ncurses client
+* [khal](https://lostpackets.de/khal/) - CLI calendar application.
+* [mates](https://github.com/pimutils/mates.rs) - A very simple commandline
+  addressbook
+* [todoman](https://github.com/pimutils/todoman) - A simple CalDAV-based todo
+  manager.
+* [vdirsyncer](https://github.com/pimutils/vdirsyncer) - Synchronize calendars
+  and contacts.
 
 ### System
 
