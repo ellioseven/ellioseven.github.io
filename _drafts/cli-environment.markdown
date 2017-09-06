@@ -56,6 +56,7 @@ title: "Development Environment"
 * [slock](http://tools.suckless.org/slock/) - Lock screen
 * [sshfs](https://github.com/libfuse/sshfs) - Mount a filesystem over SFTP
 * [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) - Terminal emulator
+* [tmux](https://github.com/tmux/tmux) - Terminal multiplexer.
 * [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html)
   - Control brightness
 
