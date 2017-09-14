@@ -5,7 +5,7 @@ date: 2017-09-15
 ---
 I recently ran into an issue where I needed to build a URL from user input.
 The problem is that the input could refer to either an internation URL (eg:
-`node/94`) or an external URL (eg: https://example.com).
+`node/94`) or an external URL (eg: `https://example.com`).
 
 ## The URL Object
 
@@ -26,7 +26,7 @@ if (empty($uri_parts['scheme'])) {
 {% endhighlight %}
 
 If `$uri` doesn't have an exisiting scheme (http, etc.), we can assume it's
-internal. We prepend `$uri` with "internal:".
+internal. We prepend $uri`with `"internal:"`.
 
 We can now pass `$uri` to the `\Drupal\Core\Url` object:
 
