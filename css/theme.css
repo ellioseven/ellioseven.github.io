@@ -36,7 +36,7 @@ a:focus {
 
 pre,
 code {
-    font-family: monospace;
+    font-family: monospace, monospace; /* Ugly hack to increase font sizing on default monospace fonts */
 }
 
 pre {
@@ -175,4 +175,3 @@ main[role="main"] > article img {
 .highlight code {
     color: inherit;
 }
-
