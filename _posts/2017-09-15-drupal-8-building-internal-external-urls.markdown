@@ -26,7 +26,7 @@ if (empty($uri_parts['scheme'])) {
 {% endhighlight %}
 
 If `$uri` doesn't have an exisiting scheme (http, etc.), we can assume it's
-internal. We prepend $uri`with `"internal:"`.
+internal. We prepend $uri with `"internal:"`.
 
 We can now pass `$uri` to the `\Drupal\Core\Url` object:
 
@@ -34,4 +34,3 @@ We can now pass `$uri` to the `\Drupal\Core\Url` object:
 // Build URL object.
 $url = Url::fromUri($uri);
 {% endhighlight %}
-
