@@ -18,7 +18,15 @@ for developing on ES6.
 
 ### Compatibility
 
-#### Babel
+ES6 (at the time of writing) isn't fully implemented in all major browsers.
+To support older browsers, ES6 is transpiled into JavaScript with [Babel](https://babeljs.io/).
 
-#### Polyfills
+@todo What is the status on polyfills? - https://www.drupal.org/forum/support/module-development-and-code-questions/2017-10-24/which-es6-polyfill
 
+### Installation
+
+@todo Setup
+
+### Workflow
+
+@todo Workflow
