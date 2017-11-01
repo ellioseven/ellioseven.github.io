@@ -20,7 +20,7 @@ of excution.
 ## Step 1 - Require the Package
 
 Require the livereload package. I also use the [ip](https://www.npmjs.com/package/ip)
-package to get the address of the Docker container.
+package to get the address of the container.
 
 ```
 npm install --save-dev livereload ip
@@ -85,7 +85,7 @@ gulp my-task
 ## Step 3 - Inject the Browser With the Livereload Client.
 
 Insert the following into the browser console, replacing `<ip>` with the IP of
-the corresponding Docker container.
+the corresponding container.
 
 ``` js
 var script = document.createElement('script');
