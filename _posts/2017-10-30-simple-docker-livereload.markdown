@@ -11,7 +11,7 @@ Trying to implement livereload into a containerised solution can be a little
 tricky as you might find yourself having to install browser extensions or
 playing around with `iptables` to configure ports. Running multiple livereload
 servers can be a little bit of a problem as browser extensions like to look for
-`localhost:35729` Fortunetly, we can skip all that.
+`localhost:35729`. Fortunetly, we can skip all that.
 
 Require the livereload package, then configure and run the livereload server.
 I use Gulp as my task runner, however you can supplement your own method
