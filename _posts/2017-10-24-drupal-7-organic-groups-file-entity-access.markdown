@@ -39,8 +39,9 @@ function my_module_file_entity_access($op, $file, $account) {
   foreach ($file_groups as $file_group_type => $file_gids) {
     foreach ($file_gids as $file_gid) {
       // Check if user belongs to group on file entity.
-      if (og_is_member($file_group_type, $file_gid, 'user', $account)) {
-        return FILE_ENTITY_ACCESS_ALLOW;
+      if (!og_is_member($file_group_type, $file_gid, 'user', $account)) {
+        // Deny if user group doesn't belong to file groups.
+        return FILE_ENTITY_ACCESS_DENY;
       }
     }
   }
