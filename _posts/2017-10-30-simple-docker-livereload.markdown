@@ -17,14 +17,18 @@ Require the livereload package, then configure and run the livereload server.
 I use Gulp as my task runner, however you can supplement your own method
 of excution.
 
-1. Require the livereload package. I also use the [ip](https://www.npmjs.com/package/ip)
-  package to get the address of the Docker container.
+## Step 1 - Require the Package
+
+Require the livereload package. I also use the [ip](https://www.npmjs.com/package/ip)
+package to get the address of the Docker container.
 
 ```
 npm install --save-dev livereload ip
 ```
 
-2. Configure your task runner (Gulp in my case):
+## Step 2 - Start the Server
+
+Configure your task runner (Gulp in my case):
 
 ``` js
 var gulp = require('gulp');
@@ -78,9 +82,10 @@ gulp.task('my-task', function () {
 gulp my-task
 ```
 
-3. Inject the browser with the livereload client. Insert the following into the
-  browser console, replacing `<ip>` with the IP of the corresponding Docker
-  container.
+## Step 3 - Inject the Browser With the Livereload Client.
+
+Insert the following into the browser console, replacing `<ip>` with the IP of
+the corresponding Docker container.
 
 ``` js
 var script = document.createElement('script');
