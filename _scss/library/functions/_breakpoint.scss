@@ -1,0 +1,14 @@
+@function breakpoint-range(
+  $breakpoint,
+  $direction: lower
+){
+  $unit: unit($breakpoint);
+  $value: call($unit, 1px, 16px);
+  @if lower == $direction {
+    @return $breakpoint - $value;
+  } @else if upper == $direction {
+    @return $breakpoint + $value;
+  } @else {
+    @return 0;
+  }
+}

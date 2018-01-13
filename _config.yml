@@ -1,4 +1,6 @@
-title: Ellioseven
+title: ellioseven
 url: ""
-github_url: https://github.com/ellioseven
 exclude: [Gemfile, Gemfile.lock]
+highlighter: false
+kramdown:
+  auto_ids: false

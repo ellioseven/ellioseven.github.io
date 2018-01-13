@@ -1,0 +1,36 @@
+code,
+pre {
+  font-family: $type-font-family-mono;
+  margin: 0;
+  padding: 0;
+  tab-size: 4;
+}
+
+code {
+  color: $color-red-royal;
+  display: inline-block;
+  font-weight: 700;
+}
+
+pre {
+  $base: th-base(saul);
+  @include type-leader;
+  @include type-leader-clear;
+  @include th-h($heading: saul, $include: font-size);
+  border-bottom: 1px dotted $color-grey-cement;
+  border-top: 1px dotted $color-grey-cement;
+  display: block;
+  line-height: em(22px, $base);
+  max-width: 100%;
+  overflow: auto;
+  padding: em($base-vertical-margin, $base);
+
+  code {
+    background: none;
+    color: inherit;
+    display: block;
+    font-weight: inherit;
+    padding: 0;
+    width: 100%;
+  }
+}

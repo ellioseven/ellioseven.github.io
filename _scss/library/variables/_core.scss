@@ -1,0 +1,4 @@
+$base-font-size: 18px;
+$base-line-height: 28px;
+$base-vertical-margin: $base-line-height * .75;
+@include sut-core-set-base($base-font-size);

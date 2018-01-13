@@ -1,0 +1,7 @@
+.back {
+  @include type-leader-step(1 2);
+  @include type-leader-clear;
+  border-top: 1px dotted $color-grey-cement;
+  padding-top: em($base-vertical-margin);
+  text-decoration: underline;
+}

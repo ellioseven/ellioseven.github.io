@@ -1,0 +1,6 @@
+.lede p {
+  $base: th-base(pete);
+  @include th-h($heading: pete, $include: font-size line-height);
+  @include type-leader($base: $base);
+  @include type-leader-clear;
+}

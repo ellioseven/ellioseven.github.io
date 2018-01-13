@@ -1,0 +1,25 @@
+img,
+iframe,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+embed,
+img,
+object,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+figure {
+  @include type-leader;
+  @include type-leader-clear;
+
+  figcaption {
+    @include type-leader(.5);
+    @include type-leader-clear
+  }
+}

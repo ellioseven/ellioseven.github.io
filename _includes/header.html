@@ -1,12 +1,6 @@
-<header role="banner">
-	<a href="/" class="logo">{{ site.title }}</a>
-	<nav>
-		{% for page in site.pages %}
-		{% if page.title %}
-		<a href="{{ page.url }}">{{ page.title }}</a>
-		{% endif %}
-		{% endfor %}
-		<a href="{{ site.github_url }}">GitHub</a>
-	</nav>
+<header role="banner" class="header">
+    <div class="header__inner">
+        {% include brand.html %}
+        {% include navigation-main.html %}
+    </div>
 </header>
-<hr />

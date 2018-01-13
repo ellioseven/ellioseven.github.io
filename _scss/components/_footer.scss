@@ -1,0 +1,38 @@
+.footer {
+  @include type-leader-step(
+    $steps: 1 2,
+    $types: padding
+  );
+  border-top: 2px solid $color-grey-cement;
+
+  .footer__inner {
+    @include layout-container;
+    @include pie-clearfix;
+  }
+
+  .copyright,
+  .menu {
+    @include type-leader;
+    @include type-leader-clear;
+    @include breakpoint($breakpoint-large) {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  .copyright {
+    @include layout-with-layouts($breakpoint-large $breakpoint-large-x) {
+      @include span(6);
+    }
+  }
+
+  .menu {
+    @include layout-with-layouts($breakpoint-large $breakpoint-large-x) {
+      @include span(3);
+
+      &:last-child {
+        @include last;
+      }
+    }
+  }
+}

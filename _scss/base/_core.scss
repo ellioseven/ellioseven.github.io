@@ -1,0 +1,28 @@
+@include establish-baseline;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  @include box-sizing('border-box');
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: $color-white;
+  color: $color-body;
+  font-family: $type-font-family-body;
+}

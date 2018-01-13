@@ -1,0 +1,24 @@
+.entry {
+  @include layout-with-layouts($breakpoint-large $breakpoint-large-x) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: span(8);
+  }
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  > header,
+  > div {
+    @include type-leader;
+    @include type-leader-clear;
+  }
+
+  > header > h1 {
+    @include breakpoint($breakpoint-large) {
+      @include th-h($heading: skyler);
+      @include type-leader-clear;
+    }
+  }
+}

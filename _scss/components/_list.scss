@@ -1,0 +1,75 @@
+.list {
+  @include type-leader-step(1 2);
+  @include type-leader-clear;
+
+  svg {
+    fill: $color-red-royal;
+    height: em(60px);
+    width: em(60px);
+    @include breakpoint($breakpoint-large) {
+      float: left;
+      margin: em(0 40px 80px 0);
+    }
+  }
+
+  > ul,
+  > ul > li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  > ul {
+    @include pie-clearfix;
+  }
+
+  > ul > li {
+    @include type-leader;
+    @include type-leader-clear;
+    @include breakpoint($breakpoint-medium) {
+      margin-bottom: 0;
+      margin-top: em($base-vertical-margin);
+    }
+
+    &:first-child {
+      @include breakpoint($breakpoint-medium) {
+        margin-top: em($base-vertical-margin);
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.list.list--primary > ul {
+  @include pie-clearfix;
+  @include breakpoint($breakpoint-medium) {
+    margin-top: -#{em($base-vertical-margin)};
+  }
+
+  > li {
+    @include layout-with-layouts($breakpoint-medium $breakpoint-large $breakpoint-large-x) {
+      @include gallery(6);
+    }
+  }
+}
+
+.list.list--secondary > ul {
+  @include breakpoint($breakpoint-large) {
+    margin-top: -#{em($base-vertical-margin)};
+  }
+
+  li {
+    @include layout-with-layouts($breakpoint-large $breakpoint-large-x) {
+      @include gallery(4);
+    }
+  }
+}

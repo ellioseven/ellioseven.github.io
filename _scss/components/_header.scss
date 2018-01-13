@@ -1,0 +1,40 @@
+.header {
+  @include pie-clearfix;
+  border-bottom: 2px solid $color-grey-cement;
+  padding: em($base-vertical-margin);
+  position: relative;
+
+  .brand {
+    margin-bottom: 0;
+    margin-top: 0;
+    @include breakpoint($breakpoint-large) {
+      float: left;
+    }
+  }
+
+  .navigation {
+    margin: 0 -#{em($base-vertical-margin)};
+    @include breakpoint($breakpoint-large) {
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .navigation > section {
+    margin-bottom: -#{em($base-vertical-margin + 1px)};
+    @include breakpoint($breakpoint-large) {
+      margin-bottom: 0;
+    }
+  }
+
+  .navigation > section > ul > li:last-child {
+    border-bottom: 0;
+  }
+
+  .navigation input[type="checkbox"] {
+    position: absolute;
+    right: em($base-vertical-margin);
+    top: em(16px);
+  }
+}

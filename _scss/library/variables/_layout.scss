@@ -1,0 +1,39 @@
+$layout-bleed: 1em;
+
+// Susy Grid
+// http://susydocs.oddbird.net/en/latest/settings/
+
+$susy: (
+  columns: 12,
+  gutter-position: after,
+  global-box-sizing: border-box,
+  use-custom: (box-sizing: false),
+  //debug: (
+  //  image: show,
+  //  color: rgba(#66f, .25),
+  //  output: background,
+  //  toggle: top right,
+  //),
+);
+
+$susy-medium: (
+  column-width: em(35px),
+  gutters: 20/35
+);
+
+$susy-large: (
+  column-width: em(60px),
+  gutters: 20/60
+);
+
+$susy-large-x: (
+  column-width: em(60px),
+  gutters: 30/60,
+);
+
+$layout-breakpoints: (
+  default: $susy,
+  $breakpoint-medium: $susy-medium,
+  $breakpoint-large: $susy-large,
+  $breakpoint-large-x: $susy-large-x
+);

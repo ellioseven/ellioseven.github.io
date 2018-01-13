@@ -1,0 +1,40 @@
+.menu {
+  @include type-leader;
+  @include type-leader-clear;
+
+  h6 {
+    $base: th-base(saul);
+    @include th-h($heading: saul, $include: font-size line-height);
+    margin: 0;
+    @include breakpoint($breakpoint-large) {
+      @include type-leader($step: .5, $base: $base);
+      @include type-leader-clear;
+    }
+  }
+
+  a {
+    @include th-h($heading: junior, $include: font-size line-height);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: .5em;
+    @include breakpoint($breakpoint-large) {
+      display: block;
+      margin-left: 0;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  li.is-active a {
+    color: $color-grey-abyss;
+  }
+}

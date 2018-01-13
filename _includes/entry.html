@@ -1,0 +1,15 @@
+<article class="entry">
+    <header>
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.date | date: "%d.%m.%Y" }}</p>
+    </header>
+    <div>
+        {% if page.lede %}
+            <div class="lede">
+                <p>{{ page.lede }}</p>
+            </div>
+        {% endif %}
+        {{ page. content }}
+    </div>
+</article>
+

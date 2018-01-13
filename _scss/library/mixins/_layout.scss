@@ -1,0 +1,40 @@
+@mixin layout-with-layouts (
+  $breakpoints: (
+    default,
+    $breakpoint-medium,
+    $breakpoint-large,
+    $breakpoint-large-x
+  )
+){
+  @each $breakpoint in $breakpoints {
+    $keys: _keys($layout-breakpoints);
+    $index: _index-of($keys, $breakpoint);
+    $prev: _get($keys, $index - 1);
+    $next: _get($keys, $index + 1);
+    $layout: _get($layout-breakpoints, $breakpoint);
+    $range: $breakpoint;
+    @if $prev and $next {
+      $range: $breakpoint breakpoint-range($next);
+    } @else if $next {
+      $range: max-width breakpoint-range($next);
+    }
+    @include susy-breakpoint($range, $layout) {
+      $memo-font-size: _memo('layout-with-layouts', 'breakpoint', $breakpoint);
+      @content;
+    }
+  }
+}
+
+@mixin layout-container {
+  padding-left: $layout-bleed;
+  padding-right: $layout-bleed;
+
+  @include layout-with-layouts {
+    @include container;
+  }
+
+  @include breakpoint($breakpoint-medium) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

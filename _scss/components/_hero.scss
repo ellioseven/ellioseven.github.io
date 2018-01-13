@@ -1,0 +1,22 @@
+.hero {
+  @include type-leader-step(1 2);
+  @include type-leader-clear;
+  max-width: em(780px);
+
+  a {
+    text-decoration: underline;
+    text-decoration-skip: ink;
+  }
+
+  h1 {
+    @include breakpoint($breakpoint-large) {
+      @include th-h($heading: skyler, $include: font-size line-height);
+      @include type-leader-clear;
+    }
+  }
+
+  p {
+    @include th-h(pete);
+    @include type-leader-clear;
+  }
+}

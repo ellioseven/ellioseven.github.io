@@ -1,0 +1,33 @@
+$type-font-family-body: Merriweather, Georgia, serif;
+$type-font-family-display: Libre Franklin, Helvetica Neue, Arial, sans-serif;
+$type-font-family-mono: monospace, monospace;
+
+// Type Heading
+// https://github.com/ellioseven/type-heading
+
+$th-headings: (
+  skyler: (48px 60px),
+  mike: (36px 46px),
+  pete: (24px 36px),
+  marie: (21px 32px),
+  tuco: (18px 28px),
+  junior: (16px 24px),
+  saul: (14px 20px),
+  chris: (12px 18px)
+);
+
+$th-base-font-size: $base-font-size;
+
+$th-property-units: (
+  font-size: em,
+  line-height: rel,
+  margin-top: em,
+  margin-bottom: em
+);
+
+$th-property-defaults: (
+  font-size: $base-font-size,
+  line-height: $base-line-height,
+  margin-top: $base-vertical-margin,
+  margin-bottom: $base-vertical-margin
+);

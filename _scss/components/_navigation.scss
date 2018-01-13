@@ -1,0 +1,115 @@
+.navigation {
+  @include type-leader;
+  @include type-leader-clear;
+
+  a {
+    @include th-h($heading: saul, $include: font-size line-height);
+    display: inline-block;
+    color: $color-grey-abyss;
+    font-family: $type-font-family-display;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+      color: $color-blue-malibu;
+      text-decoration: underline;
+    }
+
+    &.router-link-active {
+      color: $color-grey-silver;
+    }
+  }
+
+  > section {
+    display: none;
+    @include breakpoint($breakpoint-large) {
+      display: block;
+    }
+  }
+
+  > section > ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  > section > ul > li {
+    border-top: 1px solid $color-grey-cement;
+    display: block;
+    padding: em($base-vertical-margin / 2 $base-vertical-margin);
+    @include breakpoint($breakpoint-large) {
+      border: 0;
+      display: inline-block;
+      margin-right: 1em;
+      padding: 0;
+    }
+
+    &:last-child {
+      border-bottom: 1px solid $color-grey-cement;
+      @include breakpoint($breakpoint-large) {
+        border-bottom: 0;
+        margin-right: 0;
+      }
+    }
+  }
+
+  > section > ul > li.is-active a {
+    color: $color-grey-silver;
+  }
+
+  > section > ul > li.is-callout {
+    padding-bottom: em($base-vertical-margin);
+    padding-top: em($base-vertical-margin);
+    @include breakpoint($breakpoint-large) {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+  }
+
+  > section > ul > li.is-callout > a {
+    $base: th-base(chris);
+    @include th-h($heading: chris, $include: font-size);
+    @include border-radius(2px);
+    @include transition(300ms);
+    border: 2px solid $color-blue-malibu;
+    color: $color-blue-malibu;
+    padding: em(4px 10px, $base);
+
+    &:hover,
+    &:focus {
+      background-color: $color-blue-malibu;
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  input[type="checkbox"] {
+    @include appearance(none);
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNiAxMmMwIDEuNjU3LTEuMzQzIDMtMyAzcy0zLTEuMzQzLTMtMyAxLjM0My0zIDMtMyAzIDEuMzQzIDMgM3ptOSAwYzAgMS42NTctMS4zNDMgMy0zIDNzLTMtMS4zNDMtMy0zIDEuMzQzLTMgMy0zIDMgMS4zNDMgMyAzem05IDBjMCAxLjY1Ny0xLjM0MyAzLTMgM3MtMy0xLjM0My0zLTMgMS4zNDMtMyAzLTMgMyAxLjM0MyAzIDN6Ii8+PC9zdmc+);
+    background-position: center center;
+    height: em($base-line-height);
+    margin-right: 0;
+    width: em(24px);
+    @include breakpoint($breakpoint-large) {
+      display: none;
+    }
+
+    &:hover,
+    &:checked {
+      @include opacity(.5);
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input[type="checkbox"]:checked + section {
+    display: block;
+    margin-top: em($base-vertical-margin);
+    @include breakpoint($breakpoint-large) {
+      margin-top: 0;
+    }
+  }
+}

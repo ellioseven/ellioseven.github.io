@@ -1,0 +1,104 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address,
+blockquote,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+#{$selector-type-headings} {
+  @include type-heading-base;
+  @include type-leader-clear;
+}
+
+h1 {
+  @include th-hs(mike);
+}
+
+h2 {
+  @include th-hs(pete);
+}
+
+h3 {
+  @include th-hs(tuco);
+}
+
+h4 {
+  @include th-hs(junior);
+}
+
+h5 {
+  @include th-hs(saul);
+}
+
+h6 {
+  @include th-hs(chris);
+}
+
+p {
+  @include type-leader;
+  @include type-leader-clear;
+}
+
+address {
+  @include type-leader;
+  @include type-leader-clear;
+  font-style: normal;
+}
+
+blockquote {
+  @include type-leader;
+  @include type-leader-clear;
+  @include type-leader-clear('*');
+  padding-left: 2em;
+
+  cite {
+    display: block;
+  }
+
+  p {
+    @include th-h(pete);
+    @include type-leader-clear;
+  }
+}
+
+cite {
+  font-style: italic;
+}
+
+hr {
+  @include type-leader;
+  @include type-leader-clear;
+  background: $color-grey-cement;
+  border: 0;
+  height: 1px;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+  word-wrap: break-word;
+
+  &:hover,
+  &:focus {
+    color: $color-link-hover;
+  }
+}
+
+small {
+  @include th-h(
+    $heading: saul,
+    $include: font-size line-height
+  );
+}
+
+mark {
+  background: linear-gradient(to bottom,transparent 0,transparent 80%, $color-yellow-sun 80%, $color-yellow-sun 100%);
+  border-bottom: 2px solid $color-yellow-sun;
+}
