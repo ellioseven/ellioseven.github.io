@@ -523,22 +523,24 @@ mark {
 
 .brand {
   margin-top: 1.16667em;
-  margin-bottom: 1.16667em;
-  background: url("/img/logo.svg");
-  background-size: cover;
-  height: 1.22222em;
-  overflow: hidden;
-  text-align: left;
-  text-indent: -999999px;
-  width: 5.55556em; }
+  margin-bottom: 1.16667em; }
   .brand:first-child {
     margin-top: 0; }
   .brand:last-child {
     margin-bottom: 0; }
-  @media (min-width: 64em) {
-    .brand {
-      height: 1.55556em;
-      width: 6.77778em; } }
+  .brand a {
+    background: url("/img/logo.svg");
+    background-size: cover;
+    display: block;
+    height: 1.22222em;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -999999px;
+    width: 5.55556em; }
+    @media (min-width: 64em) {
+      .brand a {
+        height: 1.55556em;
+        width: 6.77778em; } }
 
 .content__inner {
   padding-left: 1em;
