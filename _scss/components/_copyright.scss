@@ -4,5 +4,6 @@
 
   p {
     @include th-h($heading: junior, $include: font-size line-height);
+    margin: 0;
   }
 }
