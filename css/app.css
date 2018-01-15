@@ -605,7 +605,8 @@ mark {
     margin-bottom: 0; }
   .copyright p {
     font-size: 0.88889em;
-    line-height: 1.5; }
+    line-height: 1.5;
+    margin: 0; }
 
 .entries {
   margin-top: 1.16667em;
