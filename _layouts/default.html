@@ -1,1 +1,15 @@
-{% include html.html %}
+<!DOCTYPE html>
+    <html>
+    <head>
+        {% include head.html %}
+    </head>
+    <body class="context--{{ page.title | slugify }} layout--{{ page.layout_type }}">
+        {% include header.html %}
+        <main role="main" class="content">
+            <div class="content__inner">
+                {{ content }}
+            </div>
+        </main>
+        {% include footer.html %}
+    </body>
+</html>

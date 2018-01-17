@@ -23,3 +23,9 @@ figure {
     @include type-leader-clear
   }
 }
+
+picture {
+  @include type-leader;
+  @include type-leader-clear;
+  display: block;
+}

@@ -3,7 +3,8 @@
   @include type-leader-clear;
 
   h2 {
-    @include th-h($heading: junior, $include: font-size line-height);
+    font-size: inherit;
+    line-height: inherit;
     margin: 0;
   }
 

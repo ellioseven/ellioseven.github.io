@@ -3,7 +3,7 @@
     $steps: 1 2,
     $types: padding
   );
-  border-top: 2px solid $color-grey-cement;
+  border-top: 1px solid $color-grey-cloud;
 
   .footer__inner {
     @include layout-container;

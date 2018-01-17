@@ -1,0 +1,9 @@
+.layout--single-short .content {
+  @include layout-container;
+
+  .content__inner {
+    @include layout-with-layouts($breakpoint-large $breakpoint-large-x) {
+      @include pad(2);
+    }
+  }
+}

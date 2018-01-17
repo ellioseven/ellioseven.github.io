@@ -2,8 +2,7 @@
 layout: default
 title: About
 permalink: /
+layout_type: full
 ---
-{% include hero-about.html %}
-{% include list-services.html %}
+{% include callout-about.html %}
 {% include list-skills.html %}
-

@@ -1,0 +1,42 @@
+body.context--about {
+
+  .content__inner {
+    @include breakpoint($breakpoint-large-x) {
+      padding-top: 0;
+    }
+  }
+
+  .callout {
+    @include type-leader-step(1 2 3 0);
+    @include type-leader-clear;
+  }
+
+  .list {
+    @include layout-container;
+    @include type-leader-step(1 2 3 4);
+    @include type-leader-clear;
+  }
+
+  .callout {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: $layout-bleed;
+    padding-right: $layout-bleed;
+    @include breakpoint($breakpoint-medium) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    @include layout-with-layouts($breakpoint-medium $breakpoint-large) {
+      @include container;
+    }
+
+    section,
+    picture {
+      @include breakpoint($breakpoint-large-x) {
+        $offset: em(73px);
+        height: calc(100vh - #{$offset});
+      }
+    }
+  }
+}

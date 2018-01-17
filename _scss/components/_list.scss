@@ -1,15 +1,35 @@
 .list {
-  @include type-leader-step(1 2);
+  @include type-leader;
   @include type-leader-clear;
+
+  h2 {
+    @include breakpoint($breakpoint-large) {
+      $base: th-base(mike);
+      @include th-h($heading: mike, $include: font-size line-height margin-bottom);
+      @include type-leader-step($steps: 1 2 3, $base: $base);
+      @include type-leader-clear;
+      text-align: center;
+    }
+  }
+
+  h3 {
+    $base: th-base(saul);
+    @include type-leader($step: .5, $base: $base);
+    @include type-leader-clear;
+    @include type-drop;
+  }
 
   svg {
     fill: $color-red-royal;
-    height: em(60px);
-    width: em(60px);
+    height: em(40px);
+    width: em(40px);
     @include breakpoint($breakpoint-large) {
       float: left;
-      margin: em(0 40px 80px 0);
     }
+  }
+
+  p {
+    margin: 0;
   }
 
   > ul,
@@ -21,55 +41,41 @@
 
   > ul {
     @include pie-clearfix;
+    @include breakpoint($breakpoint-large) {
+      margin-top: -#{em($base-vertical-margin * 2)};
+    }
   }
 
   > ul > li {
     @include type-leader;
     @include type-leader-clear;
-    @include breakpoint($breakpoint-medium) {
+    @include breakpoint($breakpoint-large) {
       margin-bottom: 0;
-      margin-top: em($base-vertical-margin);
+      margin-top: em($base-vertical-margin * 2);
+      position: relative;
+      padding-left: em(60px);
+    }
+
+    @include layout-with-layouts($breakpoint-large) {
+      @include gallery(6);
+    }
+
+    @include layout-with-layouts($breakpoint-large-x) {
+      @include gallery(4);
     }
 
     &:first-child {
-      @include breakpoint($breakpoint-medium) {
-        margin-top: em($base-vertical-margin);
+      @include breakpoint($breakpoint-large) {
+        margin-top: em($base-vertical-margin * 2);
       }
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
-      margin: 0;
-    }
-  }
-}
-
-.list.list--primary > ul {
-  @include pie-clearfix;
-  @include breakpoint($breakpoint-medium) {
-    margin-top: -#{em($base-vertical-margin)};
-  }
-
-  > li {
-    @include layout-with-layouts($breakpoint-medium $breakpoint-large $breakpoint-large-x) {
-      @include gallery(6);
-    }
-  }
-}
-
-.list.list--secondary > ul {
-  @include breakpoint($breakpoint-large) {
-    margin-top: -#{em($base-vertical-margin)};
-  }
-
-  li {
-    @include layout-with-layouts($breakpoint-large $breakpoint-large-x) {
-      @include gallery(4);
+    svg {
+      @include breakpoint($breakpoint-large) {
+        left: 0;
+        position: absolute;
+        top: 0;
+      }
     }
   }
 }

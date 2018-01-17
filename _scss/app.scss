@@ -31,6 +31,7 @@
 
 @import "components/back";
 @import "components/brand";
+@import "components/callout";
 @import "components/content";
 @import "components/copyright";
 @import "components/entries";
@@ -43,3 +44,8 @@
 @import "components/menu";
 @import "components/navigation";
 @import "components/portfolio";
+
+@import "layout/layout--single-short";
+@import "layout/layout--single-wide";
+
+@import "context/context--about";

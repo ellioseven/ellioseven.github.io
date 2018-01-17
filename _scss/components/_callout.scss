@@ -1,0 +1,132 @@
+.callout {
+  @include type-leader;
+  @include type-leader-clear;
+  @include type-leader-step(
+    $steps: 1 2 3 0,
+    $types: padding,
+    $directions: bottom
+  );
+  border-bottom: 1px solid $color-grey-cloud;
+  padding-bottom: em($base-vertical-margin);
+  @include breakpoint($breakpoint-large-x) {
+    @include pie-clearfix;
+  }
+
+  * {
+    margin-top: 0;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  section {
+    @include layout-with-layouts($breakpoint-large) {
+      @include pad(1);
+    }
+
+    @include layout-with-layouts($breakpoint-large-x) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      left: 0;
+      max-width: span(12 static);
+      margin: auto;
+      padding-right: span(6 static);
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  h1 {
+    @include breakpoint($breakpoint-large-x) {
+      @include th-h($heading: skyler, $include: font-size line-height margin-bottom);
+      @include type-leader-clear;
+    }
+  }
+
+  h1 + p {
+    @include th-h($heading: pete, $include: font-size line-height margin-bottom);
+    @include type-leader-clear;
+  }
+
+  h2 {
+    @include th-h($heading: saul, $include: font-size line-height);
+    font-family: $type-font-family-display;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  picture {
+    @include type-leader-step(1 2 3);
+    @include type-leader-clear;
+    @include breakpoint($breakpoint-large-x) {
+      float: right;
+      height: 100vh;
+      margin-bottom: 0;
+      margin-top: 0;
+      overflow: hidden;
+      position: relative;
+      width: 45%;
+    }
+  }
+
+  source,
+  img {
+    display: block;
+    @include breakpoint($breakpoint-large-x) {
+      @include translateY(-50%);
+      display: block;
+      height: 100%;
+      margin: auto;
+      max-width: initial;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: auto;
+    }
+  }
+
+  svg {
+    @include type-leader(.5);
+    @include type-leader-clear;
+    fill: $color-red-royal;
+    height: em(40px);
+    width: em(40px);
+  }
+
+  ul,
+  ul > li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    @include pie-clearfix;
+  }
+
+  ul > li {
+    @include type-leader;
+    @include type-leader-clear;
+
+    @include layout-with-layouts($breakpoint-large) {
+      @include gallery(6);
+    }
+
+    @include layout-with-layouts($breakpoint-large-x) {
+      @include gallery(3 of 6);
+      margin-bottom: 0;
+      margin-top: em($base-vertical-margin);
+    }
+
+    &:first-child {
+      @include breakpoint($breakpoint-medium) {
+        margin-top: em($base-vertical-margin);
+      }
+    }
+  }
+}

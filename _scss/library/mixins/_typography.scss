@@ -78,3 +78,13 @@
     }
   }
 }
+
+@mixin type-drop {
+  @include th-h($heading: saul, $include: font-size line-height);
+  @include type-leader(.5);
+  @include type-leader-clear;
+  font-family: $type-font-family-display;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

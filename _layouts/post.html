@@ -1,5 +1,16 @@
----
-layout: default
----
-{% include entry.html %}
-{% include back-journal.html %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+    <body class="layout--single-short">
+        {% include header.html %}
+        <main role="main" class="content">
+            <div class="content__inner">
+                {% include entry.html %}
+                {% include back-journal.html %}
+            </div>
+        </main>
+        {% include footer.html %}
+    </body>
+</html>

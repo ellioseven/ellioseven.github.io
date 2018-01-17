@@ -1,5 +1,4 @@
 .content__inner {
-  @include layout-container;
   @include type-leader-step(
     $steps: 1 2 4,
     $types: padding

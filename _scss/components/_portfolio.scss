@@ -1,38 +1,56 @@
 .portfolio {
-  @include type-leader;
+  @include type-leader-step(1 2 3);
   @include type-leader-clear;
 
+  > section > h3,
+  > section > p {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
   > section > h3 {
-    @include type-leader;
-    @include type-leader-clear;
     font-size: inherit;
     line-height: inherit;
   }
 
   > section > ul {
+    @include type-leader(1);
+    @include type-leader-clear;
     @include pie-clearfix;
     display: block;
     padding: 0;
+    @include breakpoint($breakpoint-large) {
+      @include type-leader(1.5);
+      @include type-leader-clear;
+    }
   }
 
   > section > ul > li {
     @include type-leader;
     @include type-leader-clear;
-    border-bottom: 1px dotted $color-grey-cement;
     display: block;
-    padding-bottom: em($base-vertical-margin);
     @include layout-with-layouts($breakpoint-large $breakpoint-large-x) {
-      max-width: span(8);
+      @include type-leader(1.5);
+      @include type-leader-clear;
+      @include gallery(6);
+      margin-bottom: 0;
+    }
+
+    &:nth-child(-n + 2) {
+      @include layout-with-layouts($breakpoint-large $breakpoint-large-x) {
+        margin-top: 0;
+      }
     }
   }
 
-  > section > ul > li > a,
-  > section > ul > li > p {
-    display: block;
+  > section > ul > li p {
     margin: 0;
   }
 
   > section > ul > li > p:first-child {
-    @include type-heading-base;
+    $base: th-base(saul);
+    @include type-drop;
+    @include type-leader($step: .25, $base: $base);
+    @include type-leader-clear;
   }
 }
