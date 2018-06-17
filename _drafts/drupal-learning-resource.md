@@ -46,6 +46,7 @@ lede: "A collection of curated Drupal knowledge"
 * [YouTube - DrupalCon Nashville 2018: Integration of Drupal Coding standards with Git hooks](https://youtu.be/iivwTZ8j2wo)
 * [YouTube - DrupalCon Nashville 2018: Simple Steps To Mitigate Monstrous Migration](https://youtu.be/3w_E93bKOXo)
 * [YouTube - DrupalCon Vienna 2017: Using Typed Data and Configuration Schema for Maximum Flexibility](https://youtu.be/vM_HB6p4z24)
+* [YouTube - Drupal 8 Migrate: Taming the Wild West and Learning New Tricks](https://youtu.be/SxHhH9IiYPY)
 
 ### Utilities
 
@@ -85,7 +86,8 @@ lede: "A collection of curated Drupal knowledge"
 * [YouTube - DrupalCon Nashville 2018: Writing Your First End to End Automated Tests for Web Applications](https://youtu.be/nflSOM3_oU0)
 * [YouTube - DrupalCon Nashville 2018: Principles of Unit Testing](https://youtu.be/EcPuQe3lVDM)
 * [YouTube - DrupalCon Vienna 2017: Automated Testing 101](https://youtu.be/Yo3GIyvF7Bw)
-* [YouTube - DrupalCon Vienna 2017: Prophecise your phpunit tests]
+* [YouTube - DrupalCon Vienna 2017: Prophecise your phpunit tests](https://youtu.be/MUgcbduNwdc)
+* [YouTube - Bending Behat's Benefits: A Live Coding Adventure](https://youtu.be/pYL3jb8uH9A)
 
 ## Debugging
 
@@ -121,6 +123,7 @@ lede: "A collection of curated Drupal knowledge"
 ### PHPStorm
 
 - [JetBrains - Drupal Development with PHPStorm](https://confluence.jetbrains.com/display/PhpStorm/Drupal+Development+using+PhpStorm)
+- [YouTube - Getting the most out of PHPStorm for Drupal 8](https://youtu.be/wrjGpCTQokA)
 
 ## Bookmarks
 
