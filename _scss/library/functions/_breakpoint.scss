@@ -3,7 +3,7 @@
   $direction: lower
 ){
   $unit: unit($breakpoint);
-  $value: call($unit, 1px, 16px);
+  $value: call(get-function($unit), 1px, 16px);
   @if lower == $direction {
     @return $breakpoint - $value;
   } @else if upper == $direction {

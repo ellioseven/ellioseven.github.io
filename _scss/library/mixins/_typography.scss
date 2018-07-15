@@ -29,7 +29,7 @@
   $types: (margin),
   $directions: (top bottom)
 ){
-  $leader: call($unit, $base-vertical-margin * $step, $base);
+  $leader: call(get-function($unit), $base-vertical-margin * $step, $base);
   @each $type in $types {
     @each $direction in $directions {
       $rule: unquote('#{$type}-#{$direction}');
