@@ -10,12 +10,12 @@
   "devDependencies": {
     "breakpoint-sass": "^2.7.1",
     "compass-mixins": "^0.12.10",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.9.2",
     "sass-toolkit": "^2.10.2",
-    "sass-units-translate": "^1.0.2",
-    "sassdash": "^0.8.2",
+    "sass-units-translate": "^1.0.3",
+    "sassdash": "^0.9.0",
     "susy": "^2.2.12",
-    "type-heading": "0.0.16"
+    "type-heading": "^0.1.0"
   },
   "engines": {
     "node": ">= 6.0.0",
