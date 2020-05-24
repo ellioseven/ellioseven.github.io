@@ -1,5 +1,7 @@
-/.bundle
 _site
 .idea/
 /node_modules
 *.css.map
+/.jekyll-cache
+/.bundle/*
+!/.bundle/.gitkeep

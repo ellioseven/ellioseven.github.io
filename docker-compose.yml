@@ -1,0 +1,19 @@
+version: "2"
+services:
+  jekyll:
+    image: "jekyll/jekyll"
+    working_dir: "/srv/jekyll"
+    user: "1000:1000"
+    command: ["jekyll", "serve", "-H", "0.0.0.0"]
+    ports:
+      -  "4000:4000"
+    volumes:
+      - "./:/srv/jekyll"
+      - "./.bundle:/usr/local/bundle"
+  sass:
+    image: "node:lts-alpine"
+    working_dir: "/srv"
+    user: "node:node"
+    command: ["yarn", "dev"]
+    volumes:
+      - "./:/srv"
