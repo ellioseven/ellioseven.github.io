@@ -11,7 +11,8 @@ body.context--about {
     @include type-leader-clear;
   }
 
-  .list {
+  .list,
+  .section section {
     @include layout-container;
     @include type-leader-step(1 2 3 4);
     @include type-leader-clear;
